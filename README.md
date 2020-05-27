@@ -2,7 +2,7 @@
 Software testing projects with various automation tools, i.e. Robot Framework and Selenium.
 
 ## Table of contents
-* [Robot Framework](#Robot Framework)
+* [Robot Framework](#Robot-Framework)
 
 ## Robot Framework
 
@@ -10,7 +10,7 @@ Software testing projects with various automation tools, i.e. Robot Framework an
 This project includes test cases for the [Mercury Newtorus website](http://newtours.demoaut.com/). 
 The structure of the project is based on page object pattern.
 
-#### Prerequisites and getting the tools:
+**Prerequisites and getting the tools:**
 
 Install 
 * [Python](https://www.python.org/downloads/)
