@@ -19,7 +19,7 @@ Install
 
 1. Selenium
 ```
-pip install robotframework
+pip install selenium
 ```
 
 2. Robot Framework
