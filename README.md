@@ -7,7 +7,7 @@ Software testing projects with various automation tools, i.e. Robot Framework an
 ## Robot Framework
 
 ### POM Pattern
-This project includes test cases for the [Mercury Newtorus website](http://newtours.demoaut.com/). 
+This project includes test cases for the [Mercury Newtours website](http://newtours.demoaut.com/). 
 The structure of the project is based on page object pattern.
 
 **Prerequisites and getting the tools:**
@@ -37,7 +37,7 @@ In Pycharm
 2. Install Intellibot @SeleniumLibrary Patched plugin
 
 Next steps: 
-1. Put your chromedrive .exe file to Scripts in Python Folder 
+1. Put your chromedriver .exe file to Scripts in Python Folder 
 2. Add tools (path to Scripts in Python Folder) to path in environemnt variables: 
 Control Panel -> System and Security -> System Properties
 -> Environment Variables 
