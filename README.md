@@ -3,19 +3,21 @@ Software testing projects with various automation tools, i.e. Robot Framework an
 
 ## Table of contents
 * [Robot Framework](#Robot-Framework)
+* [Selenium Webdriver](#Selenium-Webdriver)
 
-## Robot Framework
 
 ### POM Pattern
-This project includes test cases for the [Mercury Newtours website](http://newtours.demoaut.com/). 
-The structure of the project is based on page object pattern.
+Projects includes test cases for the [Mercury Newtours website](http://newtours.demoaut.com/). 
+The structure of these projects is based on page object pattern.
+
+## Robot Framework
 
 **Prerequisites and getting the tools:**
 
 Install 
 * [Python](https://www.python.org/downloads/)
 * [Pycharm IDE](https://www.jetbrains.com/pycharm/download/#section=windows)
-* [Chromedriver](https://chromedriver.chromium.org/downloads)
+* [Chromedriver](https://chromedriver.chromium.org/downloads) - check in your browser settings, which version you need.
 
 1. Selenium
 ```
@@ -43,4 +45,26 @@ Control Panel -> System and Security -> System Properties
 -> Environment Variables 
 
 
-**Project status:**  In development  
+## Selenium Webdriver
+
+**Prerequisites and getting the tools:**
+
+Install 
+* [JDK - Java Development Kit](https://www.oracle.com/technetwork/java/javase/overview/index.html )
+* [IDE e.g. IntelliJ IDEA](https://www.jetbrains.com/idea/download/#section=windows)
+* [Maven](https://maven.apache.org/download.cgi) - download .zip and add Maven to path in environemnt variables.
+* [Chromedriver](https://chromedriver.chromium.org/downloads)
+* Selenium
+```
+pip install selenium
+```
+
+In your IDE you can add 'Create TestNG XML' plugin.
+
+If you don't want to create maven project, you can also create java project and download dependencies specified in pom.xml. Next, compile downloaded dependecies - in IntelliJ IDEA:   
+Project -> project structure -> dependencies -> click + button -> select  .jar file -> compile -> OK 
+
+
+
+
+**Projects status:**  In development  
