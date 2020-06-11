@@ -3,14 +3,16 @@ Software testing projects with various automation tools, i.e. Robot Framework an
 
 ## Table of contents
 * [Robot Framework](#Robot-Framework)
+  * [POM Pattern](#POM-Pattern)
+  * [REST API Automation](#REST-API-Automation)
 * [Selenium Webdriver](#Selenium-Webdriver)
+  * [POM Pattern](#POM-Pattern)
 
+## Robot Framework
 
 ### POM Pattern
 Projects includes test cases for the [Mercury Newtours website](http://newtours.demoaut.com/). 
 The structure of these projects is based on page object pattern.
-
-## Robot Framework
 
 **Prerequisites and getting the tools:**
 
@@ -44,8 +46,32 @@ Next steps:
 Control Panel -> System and Security -> System Properties
 -> Environment Variables 
 
+### REST API Automation
+Simple test cases for REST API HTTP reqests methods.
+
+**Prerequisites and getting the tools:**
+
+1. requests
+```
+pip install requests
+```
+
+2. robotframework-requests
+```
+pip install robotframework-requests
+```
+
+3. robotframework-jsonlibrary
+```
+pip install robotframework-jsonlibrary
+```
+Don't forget to add this 3 libraries above to project interpreter in PyCharm IDE.
 
 ## Selenium Webdriver
+
+### POM Pattern
+Projects includes test cases for the [Mercury Newtours website](http://newtours.demoaut.com/). 
+The structure of these projects is based on page object pattern.
 
 **Prerequisites and getting the tools:**
 
