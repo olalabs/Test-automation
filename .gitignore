@@ -5,6 +5,9 @@ dist
 target
 venv
 .venv
+*.out
+.pabotsuitenames
+run.bat
 *~
 MANIFEST
 atest/results
