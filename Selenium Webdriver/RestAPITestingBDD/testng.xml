@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Mariola/source/repos/1 Test automation/Selenium Webdriver/RestAPITestingBDD/src/test/java/TestCases">
+        <classes>
+            <class name="TestCases.TC1_GET_Request">
+                <methods>
+                    <include name="getAllVideoGames"/>
+                    <include name="getVideoGameById"/>
+                </methods>
+            </class>
+            <class name="TestCases.TC2_POST_Request">
+                <methods>
+                    <include name="test_addNewVideoGame"/>
+                </methods>
+            </class>
+            <class name="TestCases.TC3_PUT_Request">
+                <methods>
+                    <include name="updateVideoGame"/>
+                </methods>
+            </class>
+            <class name="TestCases.TC4_DELETE_Request">
+                <methods>
+                    <include name="deleteVideoGame"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
