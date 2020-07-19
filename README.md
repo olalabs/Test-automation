@@ -7,6 +7,7 @@ Software testing projects with various automation tools, i.e. Robot Framework an
   * [REST API Automation](#REST-API-Automation)
 * [Selenium Webdriver](#Selenium-Webdriver)
   * [POM Pattern](#POM-Pattern)
+  * [REST API Testing BDD](#REST-API-Testing-BDD)
 
 ## Robot Framework
 
@@ -90,7 +91,17 @@ In your IDE you can add 'Create TestNG XML' plugin.
 If you don't want to create maven project, you can also create java project and download dependencies specified in pom.xml. Next, compile downloaded dependecies - in IntelliJ IDEA:   
 Project -> project structure -> dependencies -> click + button -> select  .jar file -> compile -> OK 
 
+### REST API Testing BDD
+VideoGame Rest API testing using Rest Assured 
+**Technologies:** Rest Assured in Java, TestNG, Maven
 
+**Prerequisites and getting the tools:**
+1. Download [VideoGameDB API](https://github.com/james-willett/VideoGameDB).
 
+2. Run application using [Gradle](https://gradle.org/releases/). Go to VideoGameDB-master localization. Type in cmd window: 
+```
+gradlew bootRun 
+```
+You can check out [API documentation](http://localhost:8080/swagger-ui/index.html) on SwaggerUI. 
 
-**Projects status:**  In development  
+3. Run tests from testing.xml file 
